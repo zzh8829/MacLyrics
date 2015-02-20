@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4CB4F431A96EEDE007D8137 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CB4F421A96EEDE007D8137 /* AppDelegate.m */; };
+		E4CB4F451A96EEDE007D8137 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CB4F441A96EEDE007D8137 /* main.m */; };
+		E4CB4F471A96EEDE007D8137 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CB4F461A96EEDE007D8137 /* Images.xcassets */; };
+		E4CB4F4A1A96EEDE007D8137 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4CB4F481A96EEDE007D8137 /* MainMenu.xib */; };
+		E4CB4F561A96EEDE007D8137 /* MacLyricsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CB4F551A96EEDE007D8137 /* MacLyricsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4CB4F501A96EEDE007D8137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4CB4F341A96EEDE007D8137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4CB4F3B1A96EEDE007D8137;
+			remoteInfo = MacLyrics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4CB4F3C1A96EEDE007D8137 /* MacLyrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLyrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4CB4F401A96EEDE007D8137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4CB4F411A96EEDE007D8137 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4CB4F421A96EEDE007D8137 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4CB4F441A96EEDE007D8137 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4CB4F461A96EEDE007D8137 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E4CB4F491A96EEDE007D8137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E4CB4F4F1A96EEDE007D8137 /* MacLyricsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacLyricsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4CB4F541A96EEDE007D8137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4CB4F551A96EEDE007D8137 /* MacLyricsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacLyricsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4CB4F391A96EEDE007D8137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4CB4F4C1A96EEDE007D8137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4CB4F331A96EEDE007D8137 = {
+			isa = PBXGroup;
+			children = (
+				E4CB4F3E1A96EEDE007D8137 /* MacLyrics */,
+				E4CB4F521A96EEDE007D8137 /* MacLyricsTests */,
+				E4CB4F3D1A96EEDE007D8137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4CB4F3D1A96EEDE007D8137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4CB4F3C1A96EEDE007D8137 /* MacLyrics.app */,
+				E4CB4F4F1A96EEDE007D8137 /* MacLyricsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4CB4F3E1A96EEDE007D8137 /* MacLyrics */ = {
+			isa = PBXGroup;
+			children = (
+				E4CB4F411A96EEDE007D8137 /* AppDelegate.h */,
+				E4CB4F421A96EEDE007D8137 /* AppDelegate.m */,
+				E4CB4F461A96EEDE007D8137 /* Images.xcassets */,
+				E4CB4F481A96EEDE007D8137 /* MainMenu.xib */,
+				E4CB4F3F1A96EEDE007D8137 /* Supporting Files */,
+			);
+			path = MacLyrics;
+			sourceTree = "<group>";
+		};
+		E4CB4F3F1A96EEDE007D8137 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4CB4F401A96EEDE007D8137 /* Info.plist */,
+				E4CB4F441A96EEDE007D8137 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4CB4F521A96EEDE007D8137 /* MacLyricsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4CB4F551A96EEDE007D8137 /* MacLyricsTests.m */,
+				E4CB4F531A96EEDE007D8137 /* Supporting Files */,
+			);
+			path = MacLyricsTests;
+			sourceTree = "<group>";
+		};
+		E4CB4F531A96EEDE007D8137 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4CB4F541A96EEDE007D8137 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4CB4F3B1A96EEDE007D8137 /* MacLyrics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4CB4F591A96EEDE007D8137 /* Build configuration list for PBXNativeTarget "MacLyrics" */;
+			buildPhases = (
+				E4CB4F381A96EEDE007D8137 /* Sources */,
+				E4CB4F391A96EEDE007D8137 /* Frameworks */,
+				E4CB4F3A1A96EEDE007D8137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacLyrics;
+			productName = MacLyrics;
+			productReference = E4CB4F3C1A96EEDE007D8137 /* MacLyrics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4CB4F4E1A96EEDE007D8137 /* MacLyricsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4CB4F5C1A96EEDE007D8137 /* Build configuration list for PBXNativeTarget "MacLyricsTests" */;
+			buildPhases = (
+				E4CB4F4B1A96EEDE007D8137 /* Sources */,
+				E4CB4F4C1A96EEDE007D8137 /* Frameworks */,
+				E4CB4F4D1A96EEDE007D8137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4CB4F511A96EEDE007D8137 /* PBXTargetDependency */,
+			);
+			name = MacLyricsTests;
+			productName = MacLyricsTests;
+			productReference = E4CB4F4F1A96EEDE007D8137 /* MacLyricsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4CB4F341A96EEDE007D8137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Zihao Zhang";
+				TargetAttributes = {
+					E4CB4F3B1A96EEDE007D8137 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E4CB4F4E1A96EEDE007D8137 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E4CB4F3B1A96EEDE007D8137;
+					};
+				};
+			};
+			buildConfigurationList = E4CB4F371A96EEDE007D8137 /* Build configuration list for PBXProject "MacLyrics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4CB4F331A96EEDE007D8137;
+			productRefGroup = E4CB4F3D1A96EEDE007D8137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4CB4F3B1A96EEDE007D8137 /* MacLyrics */,
+				E4CB4F4E1A96EEDE007D8137 /* MacLyricsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4CB4F3A1A96EEDE007D8137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CB4F471A96EEDE007D8137 /* Images.xcassets in Resources */,
+				E4CB4F4A1A96EEDE007D8137 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4CB4F4D1A96EEDE007D8137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4CB4F381A96EEDE007D8137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CB4F451A96EEDE007D8137 /* main.m in Sources */,
+				E4CB4F431A96EEDE007D8137 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4CB4F4B1A96EEDE007D8137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CB4F561A96EEDE007D8137 /* MacLyricsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4CB4F511A96EEDE007D8137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4CB4F3B1A96EEDE007D8137 /* MacLyrics */;
+			targetProxy = E4CB4F501A96EEDE007D8137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4CB4F481A96EEDE007D8137 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4CB4F491A96EEDE007D8137 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4CB4F571A96EEDE007D8137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4CB4F581A96EEDE007D8137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4CB4F5A1A96EEDE007D8137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacLyrics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E4CB4F5B1A96EEDE007D8137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacLyrics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E4CB4F5D1A96EEDE007D8137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MacLyricsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacLyrics.app/Contents/MacOS/MacLyrics";
+			};
+			name = Debug;
+		};
+		E4CB4F5E1A96EEDE007D8137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MacLyricsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacLyrics.app/Contents/MacOS/MacLyrics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4CB4F371A96EEDE007D8137 /* Build configuration list for PBXProject "MacLyrics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4CB4F571A96EEDE007D8137 /* Debug */,
+				E4CB4F581A96EEDE007D8137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4CB4F591A96EEDE007D8137 /* Build configuration list for PBXNativeTarget "MacLyrics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4CB4F5A1A96EEDE007D8137 /* Debug */,
+				E4CB4F5B1A96EEDE007D8137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E4CB4F5C1A96EEDE007D8137 /* Build configuration list for PBXNativeTarget "MacLyricsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4CB4F5D1A96EEDE007D8137 /* Debug */,
+				E4CB4F5E1A96EEDE007D8137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4CB4F341A96EEDE007D8137 /* Project object */;
+}
