@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4A6FED81A96FEEF004FC482 /* LyricsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6FED71A96FEEF004FC482 /* LyricsView.m */; };
+		E4A6FEDB1A97B11D004FC482 /* LyricsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6FEDA1A97B11D004FC482 /* LyricsViewController.m */; };
 		E4CB4F431A96EEDE007D8137 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CB4F421A96EEDE007D8137 /* AppDelegate.m */; };
 		E4CB4F451A96EEDE007D8137 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CB4F441A96EEDE007D8137 /* main.m */; };
 		E4CB4F471A96EEDE007D8137 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CB4F461A96EEDE007D8137 /* Images.xcassets */; };
 		E4CB4F4A1A96EEDE007D8137 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4CB4F481A96EEDE007D8137 /* MainMenu.xib */; };
 		E4CB4F561A96EEDE007D8137 /* MacLyricsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CB4F551A96EEDE007D8137 /* MacLyricsTests.m */; };
+		E4CB4F611A96EFE1007D8137 /* LyricsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CB4F601A96EFE1007D8137 /* LyricsWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E4A6FED61A96FEEF004FC482 /* LyricsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricsView.h; sourceTree = "<group>"; };
+		E4A6FED71A96FEEF004FC482 /* LyricsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricsView.m; sourceTree = "<group>"; };
+		E4A6FED91A97B11D004FC482 /* LyricsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricsViewController.h; sourceTree = "<group>"; };
+		E4A6FEDA1A97B11D004FC482 /* LyricsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricsViewController.m; sourceTree = "<group>"; };
 		E4CB4F3C1A96EEDE007D8137 /* MacLyrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLyrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CB4F401A96EEDE007D8137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4CB4F411A96EEDE007D8137 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,6 +42,8 @@
 		E4CB4F4F1A96EEDE007D8137 /* MacLyricsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacLyricsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CB4F541A96EEDE007D8137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4CB4F551A96EEDE007D8137 /* MacLyricsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacLyricsTests.m; sourceTree = "<group>"; };
+		E4CB4F5F1A96EFE1007D8137 /* LyricsWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricsWindow.h; sourceTree = "<group>"; };
+		E4CB4F601A96EFE1007D8137 /* LyricsWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricsWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,12 @@
 				E4CB4F461A96EEDE007D8137 /* Images.xcassets */,
 				E4CB4F481A96EEDE007D8137 /* MainMenu.xib */,
 				E4CB4F3F1A96EEDE007D8137 /* Supporting Files */,
+				E4CB4F5F1A96EFE1007D8137 /* LyricsWindow.h */,
+				E4CB4F601A96EFE1007D8137 /* LyricsWindow.m */,
+				E4A6FED61A96FEEF004FC482 /* LyricsView.h */,
+				E4A6FED71A96FEEF004FC482 /* LyricsView.m */,
+				E4A6FED91A97B11D004FC482 /* LyricsViewController.h */,
+				E4A6FEDA1A97B11D004FC482 /* LyricsViewController.m */,
 			);
 			path = MacLyrics;
 			sourceTree = "<group>";
@@ -210,7 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4A6FED81A96FEEF004FC482 /* LyricsView.m in Sources */,
 				E4CB4F451A96EEDE007D8137 /* main.m in Sources */,
+				E4CB4F611A96EFE1007D8137 /* LyricsWindow.m in Sources */,
+				E4A6FEDB1A97B11D004FC482 /* LyricsViewController.m in Sources */,
 				E4CB4F431A96EEDE007D8137 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +416,7 @@
 				E4CB4F5B1A96EEDE007D8137 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4CB4F5C1A96EEDE007D8137 /* Build configuration list for PBXNativeTarget "MacLyricsTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +425,7 @@
 				E4CB4F5E1A96EEDE007D8137 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

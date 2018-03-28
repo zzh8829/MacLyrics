@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  LyricsWindow.h
 //  MacLyrics
 //
 //  Created by Zihao Zhang on 2/19/15.
@@ -8,9 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-
-@property NSStatusItem *statusBar;
+@interface LyricsWindow : NSWindow
 
 @end
-

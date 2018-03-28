@@ -11,12 +11,26 @@
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSMenu *statusMenu;
+
 @end
 
 @implementation AppDelegate
 
+@synthesize statusBar = _statusBar;
+
+- (void)awakeFromNib
+{
+    self.statusBar = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    [self.statusBar setTitle:@"ML"];
+    [self.statusBar setHighlightMode:YES];
+    [self.statusBar setMenu:self.statusMenu];
+}
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    
+    
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
